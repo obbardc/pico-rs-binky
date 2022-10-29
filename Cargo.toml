@@ -1,0 +1,11 @@
+[package]
+name = "pico-rs-blinky"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-hal = { version = "0.2", features = ["unproven"] }
+rp-pico = "0.5"
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "0.2"
